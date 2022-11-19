@@ -1,0 +1,95 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    margin-bottom: 40px;
+}
+.color-container{
+    background: #1E2D40;
+}
+
+li:hover{
+    background-color: bisque;
+}
+
+.text-end button:hover{
+    background-color: bisque;
+}
+
+.container-main{
+    display: flex;
+    margin-left: 100px;
+}
+
+
+h2 {
+    margin-bottom: 0;
+    font-size: 1.8em;
+    border: 2px solid #1E2D40;
+    background: #35707b;
+    color: white;
+}
+
+form{
+    border: 2px solid #1E2D40;
+    color: rgb(0, 0, 0);
+}
+
+#recurso,
+#enviar {
+    padding: .3em;
+    font-size: 1.3em;
+}
+
+#enviar:hover {
+    background-color: bisque;
+}
+
+
+#principal {
+    float: left;
+    width: 70%;
+}
+
+#secundario {
+    float: right;
+    width: 25%;
+}
+
+#contenidos,
+#estados,
+#cabeceras,
+#codigo {
+    border: 2px solid #1E2D40;
+    background: #b4d6ff;
+    padding: 1em;
+    white-space: pre;
+}
+
+#contenidos {
+    min-height: 300px;
+    max-height: 400px;
+    overflow: scroll;
+}
+
+#estados {
+    min-height: 200px;
+}
+
+#cabeceras {
+    min-height: 150px;
+}
+
+#codigo {
+    min-height: 100px;
+    font-size: 1.5em;
+}
+
+#result{
+    background: #b4d6ff;
+    border: 2px solid #1E2D40;
+    height: 50px;
+}
